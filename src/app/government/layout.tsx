@@ -191,24 +191,26 @@ export default function GovernmentLayout({ children }: GovernmentLayoutProps) {
           />
         </div>
 
-        <div className="flex items-center gap-3">
-          <img
-            src="/bhuvista-logo.png"
-            alt="BhuVista Logo"
-            className="h-10 w-auto object-contain"
-          />
-          <div className="flex flex-col text-left">
-            <div className="flex items-center gap-2">
-              <span className="text-xl font-extrabold tracking-tight text-[#162a21]">
-                BhuVista
-              </span>
-              <span className="rounded bg-[#2d6a4f] px-2 py-0.5 text-[10px] font-bold text-white">
-                INTERNAL PORTAL
-              </span>
+        <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center text-center">
+          <div className="flex items-center gap-3">
+            <img
+              src="/bhuvista-logo.png"
+              alt="BhuVista Logo"
+              className="h-10 sm:h-11 w-auto object-contain shrink-0"
+            />
+            <div className="flex flex-col text-left">
+              <div className="flex items-center gap-2">
+                <span className="text-2xl sm:text-3xl font-black tracking-tight text-[#162a21] font-sans leading-tight">
+                  BhuVista
+                </span>
+                <span className="rounded bg-[#2d6a4f] px-2 py-0.5 text-[9px] font-bold text-white uppercase tracking-wider">
+                  Internal Portal
+                </span>
+              </div>
+              <p className="text-[9px] sm:text-[10px] font-extrabold tracking-wider text-[#3d5a4c] hidden md:block">
+                3D LAND INTELLIGENCE PLATFORM • MINISTRY OF RURAL DEVELOPMENT
+              </p>
             </div>
-            <p className="text-[10px] font-semibold tracking-wider text-[#3d5a4c] hidden sm:block">
-              3D LAND INTELLIGENCE PLATFORM • MINISTRY OF RURAL DEVELOPMENT
-            </p>
           </div>
         </div>
 

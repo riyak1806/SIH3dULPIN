@@ -92,11 +92,16 @@ export function AppHeader({
           <img
             src="/bhuvista-logo.png"
             alt="BhuVista Logo"
-            className="h-11 w-auto object-contain"
+            className="h-10 sm:h-11 w-auto object-contain shrink-0"
           />
-          <span className="text-3xl font-black tracking-tight text-[#162a21] font-sans">
-            BhuVista
-          </span>
+          <div className="flex flex-col text-left">
+            <span className="text-2xl sm:text-3xl font-black tracking-tight text-[#162a21] font-sans leading-tight">
+              BhuVista
+            </span>
+            <span className="text-[9px] sm:text-[10px] font-extrabold tracking-wider text-[#3d5a4c] hidden md:block">
+              3D LAND INTELLIGENCE PLATFORM • MINISTRY OF RURAL DEVELOPMENT
+            </span>
+          </div>
         </div>
       </div>
 
